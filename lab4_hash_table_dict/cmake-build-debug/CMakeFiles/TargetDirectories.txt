@@ -1,0 +1,3 @@
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab4_hash_table_dict/cmake-build-debug/CMakeFiles/lab4_hash_table_dict.dir
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab4_hash_table_dict/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab4_hash_table_dict/cmake-build-debug/CMakeFiles/rebuild_cache.dir

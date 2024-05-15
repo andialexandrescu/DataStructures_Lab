@@ -1,0 +1,7 @@
+# ninja log v5
+1	200	7369629585307953	build.ninja	12b56d2e58bd722f
+3	623	7369628103043015	CMakeFiles/lab2.dir/DoublyLinkedList.cpp.obj	2714ee99f1b1d685
+8	610	7369628102983016	CMakeFiles/lab2.dir/SimplyLinkedList.cpp.obj	91bb87517d93d5d4
+3	116	7369628214873009	lab2.exe	5fe6bead1db2a543
+0	484	7369629497759055	CMakeFiles/lab2_simply_linked_list.dir/SimplyLinkedList.cpp.obj	51cabc27c690f74d
+488	593	7369629498819049	lab2_simply_linked_list.exe	1569dc37b9f59425

@@ -1,0 +1,4 @@
+# ninja log v5
+4	219	7374804936048256	build.ninja	ce44e63839780e2
+0	441	7369733890307418	CMakeFiles/lab2_circular_linked_list.dir/DoublyCircularLinkedList.cpp.obj	78b44fcaf8466545
+443	542	7369733891277409	lab2_circular_linked_list.exe	bf04d79d442ae31e

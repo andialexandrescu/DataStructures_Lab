@@ -1,0 +1,13 @@
+# ninja log v5
+1	536	7369837021580796	CMakeFiles/lab3_stack.dir/queue.cpp.obj	d43ba9faa8751adb
+540	767	7369837023861217	lab3_stack.exe	e721028b131a68b7
+3	467	7369837837673052	CMakeFiles/lab3_stack.dir/queue.cpp.obj	d43ba9faa8751adb
+467	595	7369837838723041	lab3_stack.exe	e721028b131a68b7
+3	501	7369838278946378	CMakeFiles/lab3_stack.dir/queue.cpp.obj	d43ba9faa8751adb
+502	599	7369838279900051	lab3_stack.exe	e721028b131a68b7
+3	439	7369838936772657	CMakeFiles/lab3_stack.dir/queue.cpp.obj	d43ba9faa8751adb
+440	540	7369838937742981	lab3_stack.exe	e721028b131a68b7
+3	523	7369839573872301	CMakeFiles/lab3_stack.dir/queue.cpp.obj	d43ba9faa8751adb
+525	622	7369839574822610	lab3_stack.exe	e721028b131a68b7
+3	438	7369840128348004	CMakeFiles/lab3_stack.dir/queue.cpp.obj	d43ba9faa8751adb
+438	539	7369840129328318	lab3_stack.exe	e721028b131a68b7

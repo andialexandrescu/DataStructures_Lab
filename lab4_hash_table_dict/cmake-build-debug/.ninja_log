@@ -1,0 +1,4 @@
+# ninja log v5
+4	193	7370708439226163	build.ninja	cdf9b91bd4f4763d
+3	535	7370707388266967	CMakeFiles/lab4_hash_table_dict.dir/hash_table.cpp.obj	7b9433ed6a30664e
+536	643	7370707389316962	lab4_hash_table_dict.exe	1f286fc3fa37f5c

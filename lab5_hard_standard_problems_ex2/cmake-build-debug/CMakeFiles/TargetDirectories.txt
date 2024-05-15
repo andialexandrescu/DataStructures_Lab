@@ -1,0 +1,3 @@
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2/cmake-build-debug/CMakeFiles/lab5_hard_standard_problems_ex2.dir
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

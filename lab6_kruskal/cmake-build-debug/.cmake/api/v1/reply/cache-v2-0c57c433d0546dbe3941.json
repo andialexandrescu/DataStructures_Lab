@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2/cmake-build-debug"
+			"value" : "c:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2"
+			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/lab5_hard_standard_problems_ex2"
+			"value" : "C:/Program Files (x86)/lab6_kruskal"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/ninja/win/x64/ninja.exe"
+			"value" : "C:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "lab5_hard_standard_problems_ex2"
+			"value" : "lab6_kruskal"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1282,7 +1282,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "lab5_hard_standard_problems_ex2_BINARY_DIR",
+			"name" : "lab6_kruskal_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1291,10 +1291,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2/cmake-build-debug"
+			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal/cmake-build-debug"
 		},
 		{
-			"name" : "lab5_hard_standard_problems_ex2_IS_TOP_LEVEL",
+			"name" : "lab6_kruskal_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1306,7 +1306,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "lab5_hard_standard_problems_ex2_SOURCE_DIR",
+			"name" : "lab6_kruskal_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab5_hard_standard_problems_ex2"
+			"value" : "C:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal"
 		}
 	],
 	"kind" : "cache",

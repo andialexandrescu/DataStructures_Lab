@@ -279,7 +279,7 @@ void heap_sort(vector<int> &v, int length)
     for(int i = length-1; i >= 0; i--)
     {
         swap(v[0], v[i]); // interschimbarea elementului de la pasul curent cu primul (radacina heap-ului format), insemnand ca acum maximul curent se afla la final
-        // v[0] e asadar un element sortat, plasat acum pe poz lui corespunzatoare, eliminat din heap
+        // v[i] e asadar un element sortat, plasat acum pe poz lui corespunzatoare, eliminat din heap
 
         // se aplica heapify pt radacina (care acum e v[i]) pt a obtine din nou cel mai mare element pozitionat la radacina heap-ului
         heapify(v, i, 0); // se reduce pt fiecare pas lungimea heap-ului din moment ce unele elemente sunt scoase din heap, ele fiind sortate
@@ -289,12 +289,20 @@ void heap_sort(vector<int> &v, int length)
 int main()
 {
     vector<int> a;
-    const int vec_length = 20; // nr maxim de elemente din vector
+    /*const int vec_length = 20; // nr maxim de elemente din vector
     const int val_max = 100; // elem din vector sa aiba valori cuprinse intre 0 si 99 (ne vom folosi de restul impartirii la 100)
     srand(time(nullptr)); // un seed pt un generator de numere
     for(int i = 0; i <= vec_length; i++)
     {
         a.push_back(rand() % val_max);
+    }*/
+    int vec_length;
+    cout<<"Introduceti nr de elemente pentru vector:"<<endl; cin>>vec_length;
+    for(int i = 0; i < vec_length; i++)
+    {
+        int val;
+        cin>>val;
+        a.push_back(val);
     }
 
     cout<<"Inainte de sortare:"<<endl;

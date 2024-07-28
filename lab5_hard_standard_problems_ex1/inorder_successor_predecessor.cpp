@@ -4,14 +4,14 @@ using namespace std;
 
 // https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/?ref=lbp
 // gasirea succesorului si predecesorului inorder al unei valori din bst
-// caz particular: cheia nu e gasita, se intoarc valorile intre care se afla cheia
+// caz particular: cheia nu e gasita, se intorc valorile intre care se afla cheia
 // predecesor: copilul cel mai din dreapta al subarborelui stang, pt ca intr-un bst ar fi valoarea maxima care e mai mica decat val din nodul al carui predecesor e cautat
 // succesor: copilul cel mai din stanga al subarborelui drept, pt ca ar fi valoarea minima care e mai mare decat valoarea nodului curent
 // cheie == radacina curenta, atunci se poate realiza algoritmul de parcurgere
 // cheie < radacina curenta, atunci inseamna ca o pt a gasi valori apropiate se cauta in subarborele din stanga care va avea elemente mai mici decat radacina
 // de fapt succesorul e chiar radacina (copilul cel mai din stanga al subarborelui drept), algoritmul operand in subarborele stang (pt a gasi predecesorul)
 // cheie > radacina curenta, atunci inseamna ca o pt a gasi valori apropiate se cauta in subarborele din dreapta care va avea elemente mai mari decat radacina
-// de fapt redecesorul e chiar radacina (copilul cel mai din dreapta al subarborelui stang), algoritmul operand in subarborele drept (pt a gasi succesorul)
+// de fapt predecesorul e chiar radacina (copilul cel mai din dreapta al subarborelui stang), algoritmul operand in subarborele drept (pt a gasi succesorul)
 
 struct node{
     int val;
@@ -47,7 +47,7 @@ node *find_successor(node *subtree_root, int data) // caz general succesor
     node *suc = new node;
     suc->l_child = nullptr;
     suc->r_child = nullptr;
-    // curr va parcurge subarborele dreapt curent, prioritate avand pozitia din stanga
+    // curr va parcurge subarborele drept curent, prioritate avand pozitia din stanga
     while(curr != nullptr)
     {
         if(curr->val >= data)

@@ -1,6 +1,4 @@
 # ninja log v5
-3	370	7370507856345994	build.ninja	a4bc4a1b7033f871
-1	561	7370507862971487	CMakeFiles/lab3_queue.dir/queue_simply_linked_list.cpp.obj	a4bd8f6ec9c67cac
-563	772	7370507865043058	lab3_queue.exe	342dc0c055d7be58
+3	370	7375050496093899	build.ninja	a4bc4a1b7033f871
 3	425	7370508172660602	CMakeFiles/lab3_queue.dir/queue_simply_linked_list.cpp.obj	a4bd8f6ec9c67cac
 425	523	7370508173620914	lab3_queue.exe	342dc0c055d7be58

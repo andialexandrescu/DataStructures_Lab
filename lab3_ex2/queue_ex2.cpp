@@ -158,6 +158,10 @@ public:
             }
         }
     }
+    bool empty()
+    {
+        return head == nullptr;
+    }
 };
 
 int main() {
@@ -165,6 +169,7 @@ int main() {
     vector<int> aux;
     Stack stack;
     Queue queue_max;
+    Queue queue_prev;
     int n;
 
     cout<<"Nr. de elemente pe care le contine vectorul: "; cin>>n;
@@ -181,7 +186,7 @@ int main() {
         while(!stack.empty() && v[i] > stack.get_top()->val) // top = val din vf stivei care trebuie comparata cu fiecare element pana e gasit primul mai mare decat el
         {
             queue_max.enqueue(v[i]); // in coada se afla toate solutiile, deoarece afisarea valorilor elementelor din vector va fi usoara datorita operatiei de dequeue, deoarece se vor potrivi atribuirile
-            aux.push_back(stack.get_top()->val);
+            queue_prev.enqueue(stack.get_top()->val);
             stack.pop(); // o data ce e gasit primul cel mai mare element pt o valoare anterioara aflata pe stiva, aceasta va fi scoasa de pe stiva, deoarece nu mai trebuie comparata cu nimic
             cout<<endl<<"Afisarea stivei: ";
             stack.display();
@@ -195,14 +200,15 @@ int main() {
     while(!stack.empty())
     {
         queue_max.enqueue(-1);
-        aux.push_back(stack.get_top()->val);
+        queue_prev.enqueue(stack.get_top()->val);
         stack.pop();
     }
     cout<<endl<<endl<<endl;
-    for(int i = 0; i < n; i++)
+    while(!queue_prev.empty() && !queue_max.empty())
     {
-        cout<<"Primul cel mai mare element al lui "<<aux[i]<<" este "<<queue_max.get_head()->val<<endl;
+        cout<<"Primul cel mai mare element al lui "<<queue_prev.get_head()->val<<" este "<<queue_max.get_head()->val<<endl;
         queue_max.dequeue();
+        queue_prev.dequeue();
     }
 
     return 0;

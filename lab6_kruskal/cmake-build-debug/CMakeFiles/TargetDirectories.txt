@@ -1,0 +1,3 @@
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal/cmake-build-debug/CMakeFiles/lab6_kruskal.dir
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andi/CLionProjects/DataStructures_Lab/lab6_kruskal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
